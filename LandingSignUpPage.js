@@ -198,13 +198,13 @@ class LandingPageSignUpForm extends HTMLElement {
                 }
 
         /* Media query for small screen devices */
-        @media (max-width: 768px) {
+        @media (max-width: 1008px) {
             .rgb{
                 display:none
             } 
 
             .forms,section {
-                min-width: 100%;
+                width: 100%;
             }
 
 
@@ -219,6 +219,7 @@ class LandingPageSignUpForm extends HTMLElement {
             }
 
             section h3, section p {
+                text-align: left;
                 font-size: 16px; /* Adjust text size */
             }
 
