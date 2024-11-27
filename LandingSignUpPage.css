@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #090809, #250f2b, #3a0e4f, #490c78, #4f0ea7, #5d2dc1, #6b45db, #785df6, #9a84fa, #baabfc, #dad2fc, #f9f9f9);
+    backdrop-filter: blur(100px);
+    backdrop-filter: brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main:hover{
+    transform:translateY(1px);
+
+}
